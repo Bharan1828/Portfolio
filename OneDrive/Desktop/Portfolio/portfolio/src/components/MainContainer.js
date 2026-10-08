@@ -34,9 +34,14 @@ const MainContainer = () => {
           Explore Work →
         </button>
 
-        <button className="px-6 py-3 text-blue-950 bg-amber-200 rounded-full font-semibold">
+        <a
+          href="/Bharan_Resume (2).pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 text-blue-950 bg-amber-200 rounded-full font-semibold"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </div>
   );

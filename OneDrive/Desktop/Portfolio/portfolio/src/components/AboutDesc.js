@@ -19,10 +19,14 @@ const AboutDesc = () => {
         web development to build complete web solutions.
       </p>
       <div className="flex gap-8 mt-24">
-        <button className="bg-blue-950 text-white rounded-full px-8 py-3" Link>
+        <a
+          href="/Bharan_Resume (2).pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 text-blue-950 bg-amber-200 rounded-full font-semibold"
+        >
           📄 Resume
-        </button>
-
+        </a>
         <a
           href="https://github.com/Bharan1828"
           target="_blank"
